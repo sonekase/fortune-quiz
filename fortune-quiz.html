@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune Quiz</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Quiz</h2>
+      </div>
+      <form id="fortune_quiz">
+        <div class="form-group">
+          <p>Let's explore your luck, what unlucky events happen to you?:</p>
+          <input type="checkbox" name="unlucky-survey" value="cat"> Has a black cat walked infront of you recently?<br>
+          <input type="checkbox" name="unlucky-survey" value="glass">Have you broken a mirror lately?<br>
+          <input type="checkbox" name="unlucky-survey" value="umbrella">Have you open an umbrella indoors recently?<br>
+          <input type="checkbox" name="unlucky-survey" value="walk">Have you walked under a ladder?<br>
+          <input type="checkbox" name="unlucky-survey" value="floor">Have you visited the 13th floor of a building?<br>
+        </div>
+
+        <div class="form-group">
+          <p>What luck events has happen to you?:</p>
+          <input type="checkbox" name="lucky-survey" value="money"> Have you found money on the ground?<br>
+          <input type="checkbox" name="lucky-survey" value="clover">Have you found a four-leaf clover?<br>
+          <input type="checkbox" name="lucky-survey" value="lotto">Have you won on a scratch ticket?<br>
+          <input type="checkbox" name="lucky-survey" value="vegas">Did you hit jackpot on the slots on your recent Vegas trip?<br>
+          <input type="checkbox" name="lucky-survey" value="coding">Have you mastered JavaScript?<br>
+        </div>
+
+       <button type="submit">Submit Survey</button>
+      </form>
+      <div id="fortune-responses">
+        <p><b>Your fortune will be: <span id="responses"></span></b></p>
+
+        <br>
+      </div>
+
+
+    </div>
+  </body>
+</html>
